@@ -1,0 +1,14 @@
+include includes/headAccueil.pug
+body
+  H1 POKEPENDU
+  form
+    label
+      | Pseudo : 
+      input(type='text')
+    button Choisir un Avatar
+    button Vérification de la disponibilité du pseudo
+  div#avatar
+  div#partie
+  div#reponse
+  section
+    include includes/historique.pug

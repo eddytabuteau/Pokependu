@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+#avatar div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#partie div,#reponse div{
+    height: 50px;
+}
+li{
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+}
+body {
+    background-image:url(/src/jeu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: large;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "pokependu",
+  "version": "1.0.0",
+  "description": "Un pendu avec des pokemon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.15.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alphabet": "^1.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.3",
+    "mongodb": "^3.6.7",
+    "pug": "^3.0.2",
+    "random": "^3.0.6",
+    "randomcolor": "^0.6.2",
+    "socket.io": "^4.1.2",
+    "timer-node": "^5.0.4",
+    "websocket": "^1.0.34"
+  }
+}

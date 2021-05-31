@@ -1,0 +1,36 @@
+h1{
+color: red;
+}
+.joueur div{
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+}
+#reglement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reglement p{
+    text-align: center;
+    font-size: large;
+}
+p:first-child{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+button{
+    margin-left: 45%;
+    margin-right: 50%;
+}
+
+#lien{
+    text-decoration: underline;
+}
+body {
+    background-image:url(/src/jeu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: large;
+}

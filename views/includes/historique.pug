@@ -1,0 +1,13 @@
+h2 Top 10 : 
+ol
+    each joueur in classement
+        li
+            | pseudo : 
+            span #{joueur.pseudo}
+            |  / score : 
+            span #{joueur.score}
+            |  / temps de la partie : 
+            span #{joueur.tempsPartie.minutes}
+            |  minutes et 
+            span #{joueur.tempsPartie.secondes}
+            |  secondes 
