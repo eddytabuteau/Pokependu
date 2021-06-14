@@ -345,7 +345,7 @@ window.addEventListener('DOMContentLoaded',function(){
         window.document.getElementById('saisi').remove()
 
         const motDeFin = document.createElement("p")
-            motDeFin.innerHTML=`La partie est gagnée par ${fin.pseudo} avec un score de ${fin.score} points,la partie à durée ${fin.tempsPartie.minutes} minutes et ${fin.tempsPartie.secondes} secondes. `
+            motDeFin.innerHTML=`La partie est gagnée par ${fin.pseudo} avec un score de ${fin.score} points,la partie a durée ${fin.tempsPartie.minutes} minutes et ${fin.tempsPartie.secondes} secondes. `
             motDeFin.style.textAlign="center"
             finpokependu.appendChild(motDeFin)
         
