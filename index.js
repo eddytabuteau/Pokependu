@@ -10,7 +10,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-//mise en place de la connection mongoDB
+//mise en place de la connexion mongoDB
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb+srv://eddytab:Okioku570.632.@eddytcluster.16t9t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const maDB = 'pokependu';
